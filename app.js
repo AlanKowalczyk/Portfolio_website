@@ -45,7 +45,7 @@ document.querySelectorAll(".download-btn").forEach(button => {
         // Create a temporary <a> element for downloading the file
         const link = document.createElement("a");
         link.href = "files/CV.pdf"; // Replace with the actual path to the PDF file
-        link.download = "CV.pdf"; // Sets the name of the downloaded file
+        link.download = "Alan_Kowalczyk_CV.pdf"; // Sets the name of the downloaded file
         document.body.appendChild(link); // Append link to the body
         link.click(); // Trigger the download
         document.body.removeChild(link); // Remove the link from the document
@@ -57,3 +57,4 @@ document.querySelectorAll(".download-btn").forEach(button => {
 
 
 active_one_sec();
+
